@@ -24,39 +24,40 @@ const devolverString = (str) => {
 };
 console.log(devolverString("Cadena de texto"));
 
-// Devuelve la suma de x + y
+// Devuelve la suma de x y
 const suma = (x, y) => x + y;
 console.log(suma(10, 10));
 
-// Devuelve la resta de x - y
+// Devuelve la resta de x y
 const resta = (x, y) => x - y;
 console.log(resta(10, 8));
 
+// Devuelve la multiplicación de x y
 const multiplica = (x, y) => x * y;
 console.log(multiplica(10, 8));
 
+// Devuelve la división de x y
 const divide = (x, y) => x / y;
 console.log(divide(10, 5));
 
 // Devuelve "true" si x es igual a y
 // De lo contrario, devuelve "false"
-const sonIguales = (x, y) => (x === y ? "true" : "false");
+const sonIguales = (x, y) => x === y;
 console.log(sonIguales("perro", "perro"), sonIguales("50", 50));
 
 // Devuelve "true" si las dos strings tienen la misma longitud
 // De lo contrario, devuelve "false"
-const tienenMismaLongitud = (str1, str2) =>
-  str1.length === str2.length ? "true" : "false";
+const tienenMismaLongitud = (str1, str2) => str1.length === str2.length;
 console.log(tienenMismaLongitud("sapo", "PEPE"));
 
 // Devuelve "true" si el argumento de la función "num" es menor que noventa
 // De lo contrario, devuelve "false"
-const menosQueNoventa = (num) => (num < 90 ? "true" : "false");
+const menosQueNoventa = (num) => num < 90;
 console.log(menosQueNoventa(89), menosQueNoventa(90));
 
 // Devuelve "true" si el argumento de la función "num" es mayor que cincuenta
 // De lo contrario, devuelve "false"
-const mayorQueCincuenta = (num) => (num > 50 ? "true" : "false");
+const mayorQueCincuenta = (num) => num > 50;
 console.log(mayorQueCincuenta(50), mayorQueCincuenta(51));
 
 // Obten el resto de la división de "x" entre "y"
@@ -65,12 +66,12 @@ console.log(obtenerResto(10, 4));
 
 // Devuelve "true" si "num" es par
 // De lo contrario, devuelve "false"
-const esPar = (num) => (num % 2 == 0 ? "true" : "false");
+const esPar = (num) => num % 2 == 0;
 console.log(esPar(0), esPar(1), esPar(2));
 
 // Devuelve "true" si "num" es impar
 // De lo contrario, devuelve "false"
-const esImpar = (num) => (num % 2 != 0 ? "true" : "false");
+const esImpar = (num) => num % 2 != 0;
 console.log(esImpar(0), esImpar(1), esImpar(2));
 
 // Devuelve el valor de "num" elevado al cuadrado
