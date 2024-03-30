@@ -53,13 +53,21 @@ h1 {
   font-weight: bold;
   transition: 0.3s ease all;
   border: none;
-  cursor: pointer;
-  user-select: none;
 }
 
 .tw-followCard-button:hover {
   color: #fff;
   background-color: #09f;
+}
+
+@media only screen and (min-width: 769px) {
+  .tw-followCard-button:hover {
+    cursor: pointer;
+  }
+}
+
+.tw-followCard-button:left {
+  cursor: default;
 }
 
 .tw-followCard-text {
