@@ -12,23 +12,23 @@ let bati_boton = document.querySelector(".bati_boton");
 bati_boton.addEventListener("click", controlar_linterna);
 
 function controlar_linterna() {
-    if (!estado_linterna) {
-        estado_linterna = true;
-        sonido();
-        batman.classList.add("batman_activo");
-    } else {
-        estado_linterna = false;
-        sonido();
-        batman.classList.remove("batman_activo");
-    }
-};
+  if (!estado_linterna) {
+    estado_linterna = true;
+    sonido();
+    batman.classList.add("batman_activo");
+  } else {
+    estado_linterna = false;
+    sonido();
+    batman.classList.remove("batman_activo");
+  }
+}
 
 function sonido() {
-    if (sonido_batman.paused) {
-        sonido_click.play();
-        sonido_batman.play();
-    } else {
-        sonido_click.play();
-        sonido_batman.pause();
-    }
-};
+  if (sonido_batman.paused) {
+    sonido_click.play();
+    sonido_batman.play();
+  } else {
+    sonido_click.play();
+    sonido_batman.pause();
+  }
+}

@@ -19,9 +19,7 @@ const nuevaMultiplicacion = 10 * 4 === 40;
 const nuevoModulo = 21 % 5 === 1;
 
 // "Return" la string provista: str
-const devolverString = (str) => {
-  return str;
-};
+const devolverString = (str) => str;
 console.log(devolverString("Cadena de texto"));
 
 // Devuelve la suma de x y
@@ -78,6 +76,8 @@ console.log(esImpar(0), esImpar(1), esImpar(2));
 // ojo: No es raiz cuadrada!
 const elevarAlCuadrado = (num) => num ** 2;
 console.log(elevarAlCuadrado(5));
+
+Math.po;
 
 // Devuelve el valor de "num" elevado al cubo
 const elevarAlCubo = (num) => num ** 3;
@@ -137,7 +137,7 @@ console.log(areaDelTriangulo(3, 5));
 
 //Supongamos que 1 euro equivale a 1.20 dólares.
 //Escribe un programa que pida al usuario un número de euros y calcule el cambio en dólares.
-const deEuroAdolar = (euro) => (euro / 1.2).toFixed(2);
+const deEuroAdolar = (euro) => (euro * 1.2).toFixed(2);
 const programa = () => {
   try {
     let euros;
