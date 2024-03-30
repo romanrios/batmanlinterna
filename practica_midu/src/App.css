@@ -51,9 +51,10 @@ h1 {
   border-radius: 999px;
   padding: 6px 16px;
   font-weight: bold;
-  cursor: pointer;
   transition: 0.3s ease all;
   border: none;
+  cursor: pointer;
+  user-select: none;
 }
 
 .tw-followCard-button:hover {
