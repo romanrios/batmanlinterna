@@ -1,11 +1,11 @@
 function sumar1(nombre, num1, num2) {
-  document.write(`El resultado de tu suma es ${num1 + num2}`);
+  document.write(`Hola ${nombre}. El resultado de tu suma es ${num1 + num2}`);
 }
 
 sumar1(
   prompt("Decime tu nombre"),
-  Number(prompt("Ingresa un número: ")),
-  Number(prompt("Ingresa un número: "))
+  Number(prompt("Ingresa un número para sumar: ")),
+  Number(prompt("Ingresa otro número para sumar: "))
 );
 
 let restar0 = (num1, num2) => {
