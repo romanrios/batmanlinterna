@@ -58,22 +58,22 @@ console.log(volverAlFuturoDos);
 
 // ASYNC AWAIT
 
-let getNAmeAsync = async (postNumber) => {
+let getNameAsync = async (postNumber) => {
   try {
-    const response = await fetch("https://jsonplaceholder.typicode.com/posts/");
+    const response = await fetch(
+      `https://jsonplaceholder.typicode.com/posts/${postNumber}`
+    );
     const data = await response.json();
-
-    const postId = data[postNumber - 1].userId;
+    const userId = data.userId;
 
     const response2 = await fetch(
-      "https://jsonplaceholder.typicode.com/users/"
+      `https://jsonplaceholder.typicode.com/users/${userId}`
     );
     const data2 = await response2.json();
-
-    console.log(data2[postId - 1]);
+    console.log(data2);
   } catch (error) {
     console.log(error);
   }
 };
 
-getNAmeAsync(49);
+getNameAsync(49);
