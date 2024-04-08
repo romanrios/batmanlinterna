@@ -1,18 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CaC React</title>
-    <link rel="stylesheet" href="./css/style.css">
-</head>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
 
-<body>
+  <body>
+    <h1>User Data Fetcher</h1>
 
-    <h1>Esto es un h1</h1>
-    
-</body>
+    <section id="myForm">
+      <label for="postNumberInput">Enter Post Number:</label>
+      <input type="number" id="postNumberInput" min="1" />
+      <button id="fetchButton">Fetch Data</button>
+    </section>
 
-<script src="./js/index.js"></script>
+    <section id="userDataContainer"></section>
 
+    <br />
+    <p style="font-size: small; color: #555">CaC React 2024 - Román Ríos</p>
+    <br />
+  </body>
+
+  <script src="./js/index.js"></script>
 </html>
