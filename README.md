@@ -16,4 +16,5 @@
 | Práctica Mosh                 | [Ver](https://github.com/romanrios/cac-react/tree/main/practica_mosh)        |                                                                             |
 | Práctica Twitter follow cards | [Ver](https://github.com/romanrios/cac-react/tree/main/practica_midu)        | [Visitar](https://romanrios.github.io/cac-react/practica_midu/dist/)        |
 | Práctica Tic-Tac-Toe          | [Ver](https://github.com/romanrios/cac-react/tree/main/practica_tic-tac-toe) | [Visitar](https://romanrios.github.io/cac-react/practica_tic-tac-toe/dist/) |
+| Práctica Mouse follower          | [Ver](https://github.com/romanrios/cac-react/tree/main/practica_mouse-follower) | [Visitar](https://romanrios.github.io/cac-react/practica_mouse-follower/dist/) |
 | Práctica MDN ToDo             | [Ver](https://github.com/romanrios/cac-react/tree/main/practica_mdn-todo)    | [Visitar](https://romanrios.github.io/cac-react/practica_mdn-todo/dist/)    |
