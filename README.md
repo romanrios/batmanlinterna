@@ -6,8 +6,9 @@
 | --- | --- | --- |
 | Clase 1 Batimisión | [Ver](https://github.com/romanrios/cac-react/tree/main/clase_01) | [Visitar](https://romanrios.github.io/cac-react/clase_01/) |
 | Clase 2 Prácticas JS | [Ver](https://github.com/romanrios/cac-react/tree/main/clase_02) | |
-| Clase 5 Práctica fetch | [Ver](https://github.com/romanrios/cac-react/tree/main/clase_05) | [Visitar](https://romanrios.github.io/cac-react/clase_05) |
+| Clase 5 Práctica fetch | [Ver](https://github.com/romanrios/cac-react/tree/main/clase_05) | [Visitar](https://romanrios.github.io/cac-react/clase_05/) |
 | Clase 6 Práctica axios | [Ver](https://github.com/romanrios/cac-react/tree/main/clase_06) |  |
+| Clase 8 Práctica cards | [Ver](https://github.com/romanrios/cac-react/tree/main/clase_08) | [Visitar](https://romanrios.github.io/cac-react/clase_08/dist/) |
 
 ### Prácticas React externas
 
