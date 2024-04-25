@@ -6,9 +6,9 @@ export const AppRouter = () => {
   return (
     <>
       <Routes>
-        <Route path="/" element={<p>Ruta "/"</p> /*<LandingPage />*/} />
+        <Route path="/" element={<h1>Inicio</h1> /*<LandingPage />*/} />
         <Route
-          path="./pelicula/:peliculaId"
+          path="/pelicula/:peliculaId"
           element={<p>Ruta "/pelicula/:peliculaId"</p> /*<MovieDetail />*/}
         />
         <Route path="/ruta1" element={<h1>Ruta 1</h1>} />

@@ -9,7 +9,7 @@ export const App = () => {
     <>
       <BrowserRouter>
         <NavBar />
-        <Link to={"./"}>
+        <Link to={"/"}>
           <h1>Codo a Codo Movies</h1>
         </Link>
         <img src="./react.svg" alt="imagen" className="logo" />
