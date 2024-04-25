@@ -12,7 +12,7 @@ export const App = () => {
         <Link to={"/"}>
           <h1>Codo a Codo Movies</h1>
         </Link>
-        <img src="/react.svg" alt="imagen" className="logo" />
+        <img src="./react.svg" alt="imagen" className="logo" />
         <AppRouter />
         <LandingPage />
       </BrowserRouter>
