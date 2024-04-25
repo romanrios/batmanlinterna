@@ -1,13 +1,13 @@
 import "./App.css";
 import { AppRouter } from "./router/AppRouter";
-import { BrowserRouter, Link } from "react-router-dom";
+import { Link, HashRouter } from "react-router-dom";
 import { NavBar } from "./components/NavBar";
 import { LandingPage } from "./pages/LandingPage";
 
 export const App = () => {
   return (
     <>
-      <BrowserRouter>
+      <HashRouter>
         <NavBar />
         <Link to={"/"}>
           <h1>Codo a Codo Movies</h1>
@@ -15,7 +15,7 @@ export const App = () => {
         <img src="./react.svg" alt="imagen" className="logo" />
         <AppRouter />
         <LandingPage />
-      </BrowserRouter>
+      </HashRouter>
     </>
   );
 };
