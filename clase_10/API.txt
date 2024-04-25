@@ -1,0 +1,21 @@
+Hi romanrios,
+
+Your request for an API key has been approved. You can start using this key immediately.
+
+API Key: b81edd66f02b63c7a96a8dd53950abc8
+
+Here's an example API request:
+
+https://api.themoviedb.org/3/movie/550?api_key=b81edd66f02b63c7a96a8dd53950abc8
+
+Token:
+eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJiODFlZGQ2NmYwMmI2M2M3YTk2YThkZDUzOTUwYWJjOCIsInN1YiI6IjY2MWRjYzY3YTM5ZDBiMDE3ZDU0Y2ZkZiIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.rGAQXmDKScZ28bqTLepH-poKLoTYPrmWBrcEMugLUrU
+
+
+
+https://www.themoviedb.org/settings/api
+
+
+https://www.themoviedb.org/
+
+https://developer.themoviedb.org/docs/getting-started
