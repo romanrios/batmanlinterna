@@ -1,6 +1,6 @@
 import { Routes, Route } from "react-router-dom";
-import { LandingPage } from "../pages/LandingPage";
-import { MovieDetail } from "../pages/MovieDetail";
+// import { LandingPage } from "../pages/LandingPage";
+// import { MovieDetail } from "../pages/MovieDetail";
 
 export const AppRouter = () => {
   return (
@@ -8,7 +8,7 @@ export const AppRouter = () => {
       <Routes>
         <Route path="/" element={<p>Ruta "/"</p> /*<LandingPage />*/} />
         <Route
-          path="/pelicula/:peliculaId"
+          path="./pelicula/:peliculaId"
           element={<p>Ruta "/pelicula/:peliculaId"</p> /*<MovieDetail />*/}
         />
         <Route path="/ruta1" element={<h1>Ruta 1</h1>} />
