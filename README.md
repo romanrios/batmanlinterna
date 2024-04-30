@@ -10,7 +10,7 @@
 | Clase 6 axios | [Ver](https://github.com/romanrios/cac-react/tree/main/clase_06) |        
 | Clase 8 cards | [Ver](https://github.com/romanrios/cac-react/tree/main/clase_08) | [Visitar](https://romanrios.github.io/cac-react/clase_08/dist)  | 
 | Clase 9 counter | [Ver](https://github.com/romanrios/cac-react/tree/main/clase_09) |  | 
-| Clase 10 Movies | [Ver](https://github.com/romanrios/cac-react/tree/main/clase_10) | [Visitar](https://romanrios.github.io/cac-react/clase_10/dist)  | 
+| Clase 10-11 Movies | [Ver](https://github.com/romanrios/cac-react/tree/main/clase_10) | [Visitar](https://romanrios.github.io/cac-react/clase_10/dist)  | 
 
 
 ### Prácticas React externas
