@@ -1,18 +1,24 @@
-import peliculas from "../peliculas.json";
+// import peliculas from "../peliculas.json";
 import { MovieCard } from "../components/MovieCard";
 import "./MoviesGrid.css";
+import { get } from "../utils/conexionAPI";
+import { useState, useEffect } from "react";
 
 export const MoviesGrid = () => {
+  const [movies, setMovies] = useState([]);
+
+  useEffect(() => {
+    get("/discover/movie").then((data) => {
+      setMovies(data.results);
+    });
+  }, []);
+
   return (
     <>
-      <h1>Movies Grid</h1>
+      <h2>Movies Grid</h2>
       <ul className="moviesGrid">
-        {peliculas.map((pelicula) => (
-          <MovieCard
-            title={pelicula.original_title}
-            description={pelicula.overview}
-            key={pelicula.id}
-          />
+        {movies.map((movie) => (
+          <MovieCard movie={movie} key={movie.id} />
         ))}
       </ul>
     </>

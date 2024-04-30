@@ -1,9 +1,25 @@
 .movieCard {
   display: flex;
   flex-direction: column;
-  border: 1px solid grey;
-  border-radius: 20px;
-  padding: 10px;
+  border-radius: 12px;
   list-style: none;
-  max-width: 300px;
+  max-width: 220px;
+  overflow: hidden;
+  box-shadow: 5px 5px 15px rgb(24, 24, 24);
+  transition: all 0.3s ease;
+}
+
+.movieCard:hover {
+  transform: perspective(1000px) rotateY(-15deg);
+  scale: 1.05;
+}
+
+.movieCardInfo {
+  height: 70px;
+  padding: 0 10px;
+}
+
+.movieCardTitle {
+  font-size: 14px;
+  color: antiquewhite;
 }

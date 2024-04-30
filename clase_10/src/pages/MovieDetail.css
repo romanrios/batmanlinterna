@@ -1,0 +1,13 @@
+.movieDetail {
+  display: flex;
+  gap: 20px;
+}
+
+.movieDetail img {
+  max-width: 300px;
+}
+
+.movieDetailInfo {
+  text-align: left;
+  max-width: 300px;
+}

@@ -2,7 +2,6 @@ import "./App.css";
 import { AppRouter } from "./router/AppRouter";
 import { Link, HashRouter } from "react-router-dom";
 import { NavBar } from "./components/NavBar";
-import { LandingPage } from "./pages/LandingPage";
 
 export const App = () => {
   return (
@@ -14,7 +13,6 @@ export const App = () => {
         </Link>
         <img src="./react.svg" alt="imagen" className="logo" />
         <AppRouter />
-        <LandingPage />
       </HashRouter>
     </>
   );
