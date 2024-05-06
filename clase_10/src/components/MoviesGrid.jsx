@@ -8,7 +8,7 @@ export const MoviesGrid = () => {
   const [movies, setMovies] = useState([]);
 
   useEffect(() => {
-    get("/discover/movie").then((data) => {
+    get("/discover/movie?include_video=true").then((data) => {
       setMovies(data.results);
     });
   }, []);
@@ -21,6 +21,8 @@ export const MoviesGrid = () => {
           <MovieCard movie={movie} key={movie.id} />
         ))}
       </ul>
+      <br />
+      <br />
     </>
   );
 };
