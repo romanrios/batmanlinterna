@@ -1,17 +1,17 @@
-// import { initializeApp } from 'firebase/app';
+import { initializeApp } from "firebase/app";
+import { getFirestore } from "@firebase/firestore";
 // import { getAuth } from "firebase/auth";
-// import {getFirestore} from "@firebase/firestore"
 
-// const firebaseConfig = {
-//   apiKey: "AIzaSyBCTUCueBHk1JvItj07sblhLW2bA8khlbw",
-//   authDomain: "webdeclima.firebaseapp.com",
-//   projectId: "webdeclima",
-//   storageBucket: "webdeclima.appspot.com",
-//   messagingSenderId: "350645856003",
-//   appId: "1:350645856003:web:558e29b3f9fb5cc6736b36",
-//   measurementId: "G-64J6D0MQDE"
-// };
+const firebaseConfig = {
+  apiKey: "AIzaSyCMKbluD8VBWERgXm2VCglrC9Gn4SefIX8",
+  authDomain: "codoacodo-react.firebaseapp.com",
+  projectId: "codoacodo-react",
+  storageBucket: "codoacodo-react.appspot.com",
+  messagingSenderId: "889487536947",
+  appId: "1:889487536947:web:e64c5909f3f23a92428446",
+};
 
-// const app = initializeApp(firebaseConfig);
+const app = initializeApp(firebaseConfig);
+export const db = getFirestore(app);
+
 // export const auth = getAuth(app);
-// export const db = getFirestore(app);
