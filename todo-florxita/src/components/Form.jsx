@@ -76,7 +76,7 @@ const Form = () => {
       )}
       <FormContainer>
         <figure>
-          <img src="assets/form-img.svg" alt="borde espiralado nota" />
+          <img src="./assets/form-img.svg" alt="borde espiralado nota" />
         </figure>
         <h1>
           ToDo List <BiPencil />
